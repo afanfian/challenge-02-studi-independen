@@ -1,0 +1,160 @@
+/* Global */
+* {
+    font-family: Helvetica;
+    font-style: normal;
+}
+body {
+    box-sizing: border-box;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: Helvetica;
+}
+h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+/* Main Section */
+.home {
+    background: #f1f3ff;
+    padding-top: 1rem;
+    overflow-x: hidden;
+}
+.home .d-flex{
+    padding-left: 5%;
+}
+.home h1 {
+    font-weight: 700;
+}
+.home p {
+    font-weight: 300;
+    font-size: 0.8rem;
+    line-height: 1.4rem;
+}
+.home .container-fluid div {
+    flex: 1;
+}
+.home .cta-btn {
+    padding: 0.8rem;
+    width: fit-content;
+}
+/* Tambahan */
+.cta-btn:hover{
+    transform: scale(1.1);
+}
+.home-image img {
+    width: 100%;
+    min-height: 100%;
+}
+
+/* Our Section */
+.our-services{
+    padding-top: 5%;
+}
+.img-women{
+    padding-left: 10%;
+}
+.our-services h2{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.checklist{
+    padding-right: 2%;
+}
+.checklist:hover {
+    transform: scale(1.1);
+}
+
+/* Why Us Section */
+.why-us{
+    padding-top: 8%;
+}
+.why-us .col-md-3 .why-us-title{
+    font-weight: bold;
+    padding-top: 5%;
+}
+
+/* Testimonials Section */
+.testimonials h3{
+    padding-top: 5%;
+    text-align: center;
+    font-weight: bold;
+}
+.testimonials p{
+    text-align: center;
+}
+.testimonials .card{
+    background-color: #F1F3FF;
+}
+.testimonials .card p{
+    padding-top: 2%;
+    text-align: justify;
+}
+.photo-men{
+    margin-top: 25%;
+    width: 100px;
+    height: 80px;
+}
+.rate{
+    width: 80px;
+    height: 16px;
+    position: relative;
+    right: 42%;
+}
+.owl-carousel{
+    text-align: justify;
+	font-weight: normal;
+}
+.page{
+	height: 160px;
+	background-color: #F1F3FF;
+	color: #000000;
+}
+.testimonial-name{
+    font-weight: bold;
+}
+
+/* Getting Started */
+.getting-2{
+    /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); */
+    box-shadow: 0px 8px 16px 0px;
+    color: #FFFFFF;
+    background-color: #0D28A6;
+    border-radius: 13px;
+    text-align: center;
+    height: 300px;
+}
+.getting-2 button:hover{
+    transform: scale(1.1);
+}
+.getting-2 h3{
+    font-weight: 700;
+    padding-bottom: 1%;
+}
+/* FAQ */
+.faq-section {
+    padding: 1rem 0;
+}
+.faq-section .title-section {
+    flex: 1;
+}
+.faq-section .title-section h4 {
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+}
+.faq-section .title-section p {
+    font-weight: 300;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+.faq-section .question-section {
+    flex: 1;
+    gap: 1rem;
+}
+.faq-section .accordion-item {
+    border-radius: 0.188rem;
+    border: 0.063rem solid rgba(0, 0, 0, 0.125);
+    margin-bottom: 1rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+} 
