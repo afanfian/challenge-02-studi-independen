@@ -1,29 +1,30 @@
-.navbar {
-    padding: 1rem 0;
-    background: #f1f3ff;
+:root {
+    --first-color: rgba(241, 243, 255, 1);
+    --second-color: rgba(13, 40, 166, 1);
+    --third-color: #e5e5e5;
+    --fourth-color: #5cb85f;
+  }
+
+nav {
+    background-color: var(--first-color);
 }
-.navbar-brand {
-    background: #0d28a6;
-    width: 6.25rem;
-    height: 2.125rem;
-    margin-left: 9%;
+a {
+    color: black;
 }
-.nav-item {
-    padding: 0.1rem 0.4rem;
+.navbar-brand{
+    background-color: var(--second-color);
+    color: var(--second-color);
 }
-.nav-item.cta-btn .nav-link {
-    color: #fff !important;
-    font-weight: 700 !important;
+.pxc-7 {
+    padding: 1vh 10vw 1vh 10vw;
 }
-.navbar .nav-item .nav-link {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 0.875rem;
-    color: #000;
-    transition: all ease-in-out 0.2s;
+.btn {
+    background-color: var(--fourth-color);
+    color: white;
+    width: fit-content;
 }
-.navbar .nav-item .nav-link:hover {
-    opacity: 0.7;
+#navbar-content {
+    width: 30vw;
 }
 .cta-btn {
     font-weight: 700 !important;

@@ -27,31 +27,25 @@
 
 <body>
     <!-- Start Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto gap-1">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#our-services">Our Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#why-us">Why Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#testimonials">Testimonial</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#faq">FAQ</a>
-                    </li>
-                    <li class="nav-item cta-btn">
-                        <a class="nav-link" href="#">Register</a>
-                    </li>
+    <nav class="navbar navbar-expand-lg fixed-top pxc-7">
+        <a class="navbar-brand" href="#home">Binar Car</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end w-50" tabindex="-1" id="offcanvasDarkNavbar"
+            aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+                <a class="navbar-brand" href="#home">BCR</a>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item"><a class="nav-link" href="#our-service">Our Service</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#why-us">Why Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonial">Testimonial</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+                    <li class="nav-item"><button class="btn" onclick="">Register</button></li>
                 </ul>
             </div>
         </div>
@@ -61,13 +55,13 @@
     <section class="home" id="home">
         <div class="container-fluid d-flex flex-column gap-5 align-items-center pe-0 flex-lg-row">
             <div class="d-flex flex-column pe-5 gap-lg-2 pe-lg-0">
-                <h1>Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)</h1>
+                <h1>Sewa & Rental Mobil Terbaik di kawasan Canada</h1>
                 <p>
                     Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas <br>
                     terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu <br>
                     untuk sewa mobil selama 24 jam.
                 </p>
-                <button class="cta-btn">Mulai Sewa Mobil</button>
+                <button class="btn" onclick="">Mulai Sewa Mobil</button>
             </div>
             <div class="home-image align-self-end">
                 <img src="img/img_car.svg" alt="Car" />
