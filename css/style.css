@@ -158,3 +158,20 @@ h2 {
     font-size: 0.875rem;
     line-height: 1.25rem;
 } 
+
+/* Responsive */
+@media only screen and (max-width: 1020px) {
+    .img-women{
+            width: 50vw;
+            padding-right: 5%;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .img-women{
+            width: 80vw;
+    }
+    .footer{
+        margin: 0;
+        padding: 0;
+    }
+}
