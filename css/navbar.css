@@ -13,7 +13,7 @@ nav {
 }
 .navbar-brand{
     background-color: var(--second-color);
-    color: #fff;
+    color: transparent;
 }
 .pxc-7 {
     /* padding: 1vh 10vw 1vh 10vw; */
@@ -37,7 +37,7 @@ nav {
     transition: all ease-in-out 0.2s;
 }
 /* Responsive  */
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 360px) {
     .pxc-7 {
         /* padding: 1vh 10vw 1vh 10vw; */
         padding-left: 3.5%;
