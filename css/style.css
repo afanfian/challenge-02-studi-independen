@@ -27,7 +27,7 @@ h2 {
     overflow-x: hidden;
 }
 .home .d-flex{
-    padding-left: 5%;
+    padding-left: 4%;
 }
 .home h1 {
     font-weight: 700;
@@ -178,5 +178,16 @@ h2 {
     .footer{
         margin: 0;
         padding: 0;
+    }
+}
+@media only screen and (min-width: 375px) {
+    .home .d-flex{
+        padding-left: 1.5%;
+    }
+    .home-image{
+        width: 98%;
+    }
+    .footer .container{
+        gap: none;
     }
 }

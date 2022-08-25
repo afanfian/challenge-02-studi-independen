@@ -17,7 +17,7 @@ nav {
 }
 .pxc-7 {
     /* padding: 1vh 10vw 1vh 10vw; */
-    padding-left: 10%;
+    padding-left: 8%;
     padding-right: 5%;
 }
 .btn {
@@ -35,4 +35,12 @@ nav {
     border-radius: 0.1rem;
     border: none;
     transition: all ease-in-out 0.2s;
+}
+/* Responsive  */
+@media only screen and (min-width: 375px) {
+    .pxc-7 {
+        /* padding: 1vh 10vw 1vh 10vw; */
+        padding-left: 3.5%;
+        padding-right: 3%;
+    }
 }
